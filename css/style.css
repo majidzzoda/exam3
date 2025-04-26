@@ -1,0 +1,139 @@
+table {
+  border: 1px solid lightgrey;
+  border-collapse: collapse;
+  width: 40%;
+  margin: auto;
+}
+th,
+td {
+  text-align: center;
+  border-top: 1px solid lightgrey;
+  padding: 10px 5px;
+  font-weight: 900;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid lightgrey;
+}
+
+.inputSearch {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.addInput {
+  border-bottom-left-radius: 5px;
+}
+
+.addBtn {
+  background-color: rgb(14, 96, 249);
+  color: white;
+  border: 1px solid lightgrey;
+  border-bottom-right-radius: 5px;
+  padding: 7px 10px;
+  font-weight: 900;
+}
+
+.infoDialog {
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  width: 25%;
+  text-align: center;
+}
+.infoDialog::backdrop {
+  backdrop-filter: blur(5px);
+}
+
+.infoCancel {
+  background-color: red;
+  border: 1px solid lightgrey;
+  color: white;
+  padding: 7px 10px;
+  border-radius: 5px;
+  width: 70%;
+  transition: all;
+  transition-duration: 0.3s;
+  font-weight: 900;
+}
+
+.infoCancel:hover {
+  background-color: darkred;
+  cursor: pointer;
+  width: 90%;
+  transition: all;
+  transition-duration: 0.3s;
+}
+
+.flex {
+  width: 40%;
+  display: flex;
+  margin: auto;
+}
+
+.flex_flex {
+  width: 44.5%;
+  margin-left: 427px;
+}
+
+.infoBtn {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: 900;
+  transition: all;
+  transition-duration: 0.3s;
+}
+
+.infoBtn:hover {
+  background-color: lightgray;
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: all;
+  transition-duration: 0.3s;
+}
+.editBtn {
+  background-color: orange;
+  color: white;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: 900;
+  transition: all;
+  margin: 0px 5px;
+  transition-duration: 0.3s;
+}
+
+.editBtn:hover {
+  background-color: rgb(213, 140, 4);
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: all;
+  transition-duration: 0.3s;
+}
+.delBtn {
+  background-color: red;
+  color: white;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: 900;
+  transition: all;
+  transition-duration: 0.3s;
+}
+
+.delBtn:hover {
+  background-color: darkred;
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: all;
+  transition-duration: 0.3s;
+}
+
+.zagolovok {
+    position: relative;
+    top: 20px;
+    width: 50%;
+    margin-left: 425px;
+}

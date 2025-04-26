@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1 class="zagolovok">ToDo List</h1>
+    <div class="flex_flex">
+        <input
+        type="search"
+        name=""
+        id=""
+        class="inputSearch"
+        placeholder="Search..."
+        />
+    </div>
+    <dialog class="infoDialog">
+      <h1 class="infoID"></h1>
+      <h1 class="infoTitle"></h1>
+      <button class="infoCancel">Cancel</button>
+    </dialog>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Title</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div class="flex">
+      <input type="text" class="addInput" placeholder="Add a new user" />
+      <button class="addBtn">Add</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
